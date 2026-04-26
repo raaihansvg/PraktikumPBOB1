@@ -1,4 +1,4 @@
-/*
+/* 
 NIM             : 24060124140178
 Nama            : Raihan Lazuardi
 File            : Mahasiswa.java
