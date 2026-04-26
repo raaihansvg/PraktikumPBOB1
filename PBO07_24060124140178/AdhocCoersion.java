@@ -5,12 +5,11 @@ File            : AdhocCoersion.java
 Tanggal         : 26 April 2026
 Keterangan      : Polimorfisme AdhocCoersion (Soal 1a - 1f)
 */
-package PBO07_24060124140178;
 
 public class AdhocCoersion{
     public static void main(String[] args){
         /* Soal 1a */
-        System.out.prinln("== Soal 1a ==");
+        System.out.println("== Soal 1a ==");
 
         int nilaiInt = 65;
         System.out.println("Nilai Integer : " + nilaiInt);
