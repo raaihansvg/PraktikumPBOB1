@@ -37,12 +37,36 @@ public class AdhocCoersion{
         String X = "1234";
         String Y = "5678";
 
-        String hasilKonkat = X + Y;
-        Integer hasilJumlahString = Integer.parseInt(X) + Integer.parseInt(Y);
+        String S = X + Y;
+        Integer Z = Integer.parseInt(X) + Integer.parseInt(Y);
 
         System.out.println("X = " + X + ", Y = " + Y);
-        System.out.println("S (konkatenasi)      : " + hasilKonkat);
-        System.out.println("Z (penjumlahan angka): " + hasilJumlahString);
+        System.out.println("S (konkatenasi)      : " + S);
+        System.out.println("Z (penjumlahan angka): " + Z);
 
+        /* Soal 1d */
+        System.out.println("== Soal 1d ==");
+
+        String P = "12.34";
+        String Q = "56.78";
+
+        String R = P + Q;
+        Double D = Double.parseDouble(P) + Double.parseDouble(Q);
+
+        System.out.println("P = " + P + ", Q = " + Q);
+        System.out.println("R (konkatenasi)      : " + R);
+        System.out.println("D (penjumlahan angka): " + D);
+
+        /* Soal 1e */
+        System.out.println("== Soal 1e ==");
+
+        Integer A = Integer.valueOf(S);
+        System.out.println("A (integer dari S) : " + A);
+
+        /* Soal 1f */
+        System.out.println("== Soal 1f ==");
+
+        String T = Integer.toString(A);
+        System.out.println("T (String dari A)    : " + T);
     }
 }
