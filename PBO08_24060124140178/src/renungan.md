@@ -1,1 +1,1 @@
-
+Konsep Generik dalam java kita bisa buat sebuah kelas,method yang dapat bekerja dengan berbagai tipe data tanpa harus mendefinisikannya secara spesifik terlebih dahulu.Tipe data baru dpt ditentukan pd saat objek dibuat / method dipanggil
