@@ -1,3 +1,7 @@
+// Nama     : Raihan Lazuardi
+// NIM      : 24060124140178
+// Tanggal  : 09 Mei 2026
+// NamaFile : Teman.java
 import java.util.*;
 
 
