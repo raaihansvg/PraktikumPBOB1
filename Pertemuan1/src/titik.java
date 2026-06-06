@@ -1,7 +1,7 @@
 public class titik {
 
-    double absis;
-    double ordinat;
+    private double absis;
+    private double ordinat;
 
     
     titik() {
@@ -20,19 +20,45 @@ public class titik {
     }
 
     void setAbsis(double x){
-        absis = x;
+        this.absis = x;
     }
 
 
     void setOrdinat(double y){
-        ordinat = y;
+        this.ordinat = y;
     }
 
 
     void geser(double x, double y){
-        absis = absis +x;
-        ordinat = ordinat + y;
+        this.absis = absis +x;
+        this.ordinat = ordinat + y;
     }
+
+    int Kuadran(){
+        if (this.absis > 0 && this.ordinat > 0){
+            return 1;
+        }else{
+            if (this.absis < 0 && this.ordinat > 0){
+                return 2;
+            }else{
+                if (this.absis < 0 && this.ordinat < 0){
+                    return 3;
+                }else{
+                    if (this.absis > 0 && this.ordinat < 0){
+                        return 4;
+                    }else{
+                        return 0;
+                    }
+                }
+            }
+        }
+    }
+
+    double JarakkePusat(){
+        return Math.sqrt(this.absis * this.absis + this.ordinat * this.ordinat);
+    }
+
+
 
     void printTitik(){
         System.out.println("Titik (" + absis + "," + ordinat + ")");
